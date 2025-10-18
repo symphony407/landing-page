@@ -1,9 +1,29 @@
+.card-container1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;    
+}       
+
+.card1 {
+    flex: 1 1 150px;
+    background-color: white;
+    border: 1px solid blue;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+
+
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     align-items: flex-start;
+    
 }
 
 .card {
@@ -13,4 +33,5 @@
     padding: 20px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     text-align: center;
+    border-radius: 10px;
 }
