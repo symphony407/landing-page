@@ -1,43 +1,104 @@
-.card-container1 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;    
-}     
-
-body{
-    font-family: 'Roboto', sans-serif;
-
+/* Reset some default styles */
+body, h1, h2, h3, p, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
 }
 
+/* Hero Section Background */
+.hero-section {
+    background-color: #1F2937;   /* hero background */
+    color: white;
+    padding: 40px 20px;
+    position: relative;           /* for absolute header */
+}
+
+/* Header Logo top-right inside hero */
+.hero-header {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Flex layout for hero text + card */
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 60px;   /* space below header logo */
+    gap: 20px;
+}
+
+/* Hero text */
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    flex: 1;
+    max-width: 60%;
+}
+
+/* Top-Right Card */
 .card1 {
-position: absolute;  /* take it out of normal flow */
-    top: 20px;           /* distance from top */
-    right: 20px;         /* distance from right */
-    width: 300px;        /* optional fixed width */
+    width: 200px;
     background-color: white;
+    color: black;
     border: 1px solid blue;
     padding: 20px;
+    border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     text-align: center;
-    border-radius: 10px;
 }
 
-
+/* Main Section Mini Cards */
 .card-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     align-items: flex-start;
-    
+    padding: 40px 20px;
 }
 
 .card {
-    flex: 1 1 30px;
+    flex: 1 1 150px;
     background-color: white;
-    border: 1px solid blue;
+    border: 1px solid blueviolet;
     padding: 20px;
+    border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     text-align: center;
-    border-radius: 10px;
 }
+
+/* Footer */
+.site-footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.site-footer button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4A90E2;
+    color: white;
+    cursor: pointer;
+}
+
+/* Buttons in hero */
+.hero-text button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #4A90E2;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
