@@ -2,19 +2,25 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;    
-}       
+}     
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
 
 .card1 {
-    flex: 1 1 150px;
+position: absolute;  /* take it out of normal flow */
+    top: 20px;           /* distance from top */
+    right: 20px;         /* distance from right */
+    width: 300px;        /* optional fixed width */
     background-color: white;
     border: 1px solid blue;
     padding: 20px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     text-align: center;
     border-radius: 10px;
-    align-self: flex-start;
 }
-
 
 
 .card-container {
