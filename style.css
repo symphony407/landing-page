@@ -15,9 +15,22 @@ body, h1, h2, h3, p, button {
 
 /* Header Logo top-right inside hero */
 .hero-header {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.nav-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.hero-header h3,
+.nav-links h4{
+    margin: 0;
+    cursor: pointer;
+   color: #E5E7EB;
+   font-size: 18px;
 }
 
 /* Flex layout for hero text + card */
