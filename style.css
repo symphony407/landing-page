@@ -53,7 +53,7 @@ body, h1, h2, h3, p, button {
 
 /* Top-Right Card */
 .card1 {
-    width: 200px;
+    width: 300px;
     background-color: white;
     color: black;
     border: 1px solid blue;
@@ -76,7 +76,7 @@ body, h1, h2, h3, p, button {
 .card {
     flex: 1 1 150px;
     background-color: white;
-    border: 1px solid blueviolet;
+    border: 1px solid blue;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
@@ -101,17 +101,37 @@ body, h1, h2, h3, p, button {
     cursor: pointer;
 }
 
-/* Buttons in hero */
+
 .hero-text button {
     margin-top: 20px;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #ffffff;
-    color: #4A90E2;
+    background-color: #4A90E2;
+    color: white;
     font-weight: bold;
     cursor: pointer;
 }
+
+.quote-section {
+    background-color: #F3F4F6;
+    color: #1F2937;
+    padding: 30px 20px;
+    font-style: italic;
+    font-size: 24px;
+    margin: 40px 0;
+
+    display: flex;               /* make the section a flex container */
+    justify-content: center;     /* center horizontally */
+    align-items: center;         /* center vertically */
+    text-align: center;          /* just in case */
+    min-height: 100px;           /* optional, ensures some height for vertical centering */
+}
+
+.quote-section p {
+    margin: 0;                   /* remove default margin */
+}
+
 
 
 
