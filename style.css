@@ -7,10 +7,10 @@ body, h1, h2, h3, p, button {
 
 /* Hero Section Background */
 .hero-section {
-    background-color: #1F2937;   /* hero background */
+    background-color: #1F2937;   
     color: white;
     padding: 40px 20px;
-    position: relative;           /* for absolute header */
+    position: relative;           
 }
 
 /* Header Logo top-right inside hero */
@@ -34,7 +34,7 @@ body, h1, h2, h3, p, button {
 }
 .hero-text,
 .card1 {
-    min-height: 180px; /* smaller height – adjust as you like */
+    min-height: 180px; 
 }
 
 
@@ -42,7 +42,7 @@ body, h1, h2, h3, p, button {
 .top-section {
     display: flex;
     justify-content: center;
-    align-items: stretch; /* keeps them equal height */
+    align-items: stretch; 
     gap: 50px;
     margin-top: 60px;
     flex-wrap: wrap;
@@ -109,7 +109,7 @@ body, h1, h2, h3, p, button {
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     text-align: center;
-    margin: 50px auto; /* center and add bottom margin */
+    margin: 50px auto; 
     display: flex;
     flex-direction: column;
     justify-content: center;
