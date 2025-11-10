@@ -32,15 +32,23 @@ body, h1, h2, h3, p, button {
    color: #E5E7EB;
    font-size: 18px;
 }
+.hero-text,
+.card1 {
+    min-height: 180px; /* smaller height – adjust as you like */
+}
+
 
 /* Flex layout for hero text + card */
 .top-section {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 60px;   /* space below header logo */
-    gap: 20px;
+    justify-content: center;
+    align-items: stretch; /* keeps them equal height */
+    gap: 50px;
+    margin-top: 60px;
+    flex-wrap: wrap;
 }
+
+
 
 /* Hero text */
 .hero-text {
@@ -54,14 +62,18 @@ body, h1, h2, h3, p, button {
 /* Top-Right Card */
 .card1 {
     width: 350px;
-    height: 80px;
     background-color: gray;
     color: black;
-    border: 1px solid blue;
+    border: 1px gray;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 0px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Main Section Mini Cards */
@@ -76,8 +88,11 @@ body, h1, h2, h3, p, button {
 
 .card {
     flex: 1 1 150px;
+    max-width: 200px;
+    min-height: 220px;
+    width: 180px;
     background-color: white;
-    border: 1px solid blue;
+    border: 3px solid blue;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
@@ -99,6 +114,12 @@ body, h1, h2, h3, p, button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+main h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
 }
 
 /* Footer */
@@ -150,7 +171,6 @@ body, h1, h2, h3, p, button {
 .quote-section p {
     margin: 0;                   
 }
-
 
 
 
