@@ -105,15 +105,16 @@ body, h1, h2, h3, p, button {
     background-color: #4A90E2;
     color: white;
     border: none;
-    padding: 20px;
+    padding: 20px 30px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     text-align: center;
-    margin: 0 auto 50px auto; /* center and add bottom margin */
+    margin: 50px auto; /* center and add bottom margin */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: left;
 }
 
 main h2{
