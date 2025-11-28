@@ -41,32 +41,33 @@ body, h1, h2, h3, p, button {
 /* Flex layout for hero text + card */
 .top-section {
     display: flex;
-    justify-content: center;
-    align-items: stretch; 
-    gap: 50px;
-    margin-top: 60px;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 40px;
+    margin-top: 80px;
+    flex-wrap: nowrap;
 }
 
 
 
 /* Hero text */
-.hero-text {
-    font-size: 48px;
-    font-weight: 900;
-    color: #F9FAF8;
-    flex: 1;
-    max-width: 60%;
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 10px;
+    max-width: 450px;
 }
+
 
 /* Top-Right Card */
 .card1 {
-    width: 350px;
-    background-color: gray;
-    color: black;
+    width: 450px;
+    height: 250px;
+    background-color: #6D747D;
+    color: white;
     border: 1px gray;
     padding: 20px;
-    border-radius: 0px;
+    border-radius: 8px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     text-align: center;
 
@@ -79,11 +80,8 @@ body, h1, h2, h3, p, button {
 /* Main Section Mini Cards */
 .card-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
     justify-content: center;
-    align-items: flex-start;
-    padding: 40px 20px;
+    gap: 40px;
 }
 
 .card {
@@ -100,27 +98,24 @@ body, h1, h2, h3, p, button {
 }
 
 .sign-upcard {
-    width: 800px;
-    height: 100px;
-    background-color: #4A90E2;
-    color: white;
-    border: none;
-    padding: 20px 30px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-    text-align: center;
-    margin: 50px auto; 
+    width: 900px;
+    height: auto;
+    background-color: #3882F6;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    text-align: left;
+    padding: 40px 60px;
+    
+}
+.sign-upcard p {
+    color: white;
+    font-size: 24px;
+    max-width: 600px;
 }
 
 main h2{
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* Footer */
@@ -132,14 +127,10 @@ main h2{
 }
 
 .sign-upcard button {
-    margin: 10px 0;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border: 2px solid white;
-    border-radius: 5px;
-    border-color: white;
-    background-color: #4A90E2;
-    color: white;
-    cursor: pointer;
+    background-color: transparent;
+    border-radius: 8px;
 }
 
 
@@ -155,18 +146,12 @@ main h2{
 }
 
 .quote-section {
-    background-color: #F3F4F6;
-    color: #1F2937;
-    padding: 30px 10px;
+    background-color: #E5E7EB;
+    padding: 80px;
+    font-size: 36px;
     font-style: italic;
-    font-size: 24px;
-    margin: 100px 0;
-
-    display: flex;               
-    justify-content: center;     
-    align-items: center;         
-    text-align: center;          
-    min-height: 100px;           
+    color: #1F2937
+          
 }
 
 .quote-section p {
